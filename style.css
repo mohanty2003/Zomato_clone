@@ -1,0 +1,366 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+  font-style: auto;
+}
+body{
+    width: 100vw;
+    background-color: #efefee;
+}
+header{
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 90%;
+    height: 95%;
+    /* border: 1px solid black;  */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#logo-container{
+    flex-basis: 20%;
+    height: 40px;
+  /*  border: 1px solid red; */
+   
+}
+#logo-container span{
+    
+    width: 80%;
+}
+#logo-container span>img{
+    width: inherit;
+}
+#search-container{
+    flex-basis: 45%;
+    height: 50px;
+   /* border: 1px solid red; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px black;
+    display: flex;
+    align-items: center;
+    gap:20px;
+
+}
+ #location{
+    flex-basis: 40%;
+    height: 40px;
+   /* border: 1px solid green;*/
+    display: flex;
+    align-items: center;
+    border-right: 2px solid gray;
+}
+#location span{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+#location span #loc{
+    margin-left: 7px;
+    color: #f45b74;
+}
+#location span input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+
+#input-box{
+    flex-basis: 60%;
+    height: 30px;
+  /*  border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#input-box #search-icon{
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+}
+#input-box #inp-container input{
+    width: 500px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+#reg-container{
+    flex-basis: 20%;
+    height: 40px;
+   /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#reg-container span a{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: grey;
+}
+#reg-container span a:hover{
+    color: black;
+}
+#navigate{
+    height: 50px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: end;
+}
+
+#para{
+    background-color: #ffffff;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    display: flex;
+    gap: 10px;
+}
+#para a{
+    text-decoration: none;
+    color: gray;
+    font: 14px;
+}
+#para a:hover{
+    color: red;
+}
+#para span{
+    font-size: 14px;
+    color: rgb(170, 170, 170);
+}
+
+#services{
+    height: 100px;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+}
+
+#services article{
+    height: 100%;
+    width: 550px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    margin-left: 60px;
+
+}
+.images{
+    height: 60px;
+    width: 60px;
+    /* border: 1px  solid red; */
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.images img{
+    height: 40px;
+    width: 40px;
+}
+
+#services article div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#dining .images{
+    background-color: #e5e1e1;
+}
+#delivery .images{
+    background-color: #f0edd3;
+}
+#nightlife .images{
+    background-color: #cfefef;
+}
+
+/* collection section */
+
+#collection{
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 77px;
+}
+#Explore{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+
+}
+#Explore span{
+    position: absolute;
+    right: 50px;
+    top: 275px;
+    color: red;
+}
+
+#main{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+    gap: 20px;
+}
+ .photo{
+    height: 300px;
+    width: 250px;
+   /* border: 1px solid red;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#main .photo img{
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* Offer and button section */
+
+#button-cont{
+    height: 100px;
+    width: 100vw;
+    background-color: #ffffff;
+    margin-top: 100px;
+    
+}
+#button1{
+    margin-left: 95px;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid rgb(177, 177, 177);
+    color: #aeabab;
+    background-color: #fdf8f8;
+    box-shadow: 0px 0px 2px grey;
+    
+}
+ #button-cont #butto1 svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* #button-cont #button1:hover{
+    color: red;
+} */
+#button2{
+    margin-left: 10px;
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    border: 1px solid rgb(177, 177, 177);
+    color: #aeabab;
+    background-color: #fdf8f8;
+    box-shadow: 0px 0px 1px grey;
+    margin-top: 30px;
+    box-shadow: 0px 0px 2px grey;
+}
+#button3{
+    margin-left: 10px;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    border: 1px solid rgb(177, 177, 177);
+    color: #aeabab;
+    background-color: #fdf8f8;
+    box-shadow: 0px 0px 2px grey;
+}
+#button4{
+    margin-left: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid rgb(177, 177, 177);
+    color: #aeabab;
+    background-color: #fdf8f8;
+    box-shadow: 0px 0px 2px grey;
+}
+#button5{
+    margin-left: 10px;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: 1px solid rgb(177, 177, 177);
+    color: #aeabab;
+    background-color: #fdf8f8;
+    box-shadow: 0px 0px 2px grey;
+}
+#button6{
+    margin-left: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid rgb(177, 177, 177);
+    color: #aeabab;
+    background-color: #fdf8f8;
+    box-shadow: 0px 0px 2px grey;
+}
+#button7{
+    margin-left: 10px;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    border: 1px solid rgb(177, 177, 177);
+    color: #aeabab;
+    background-color: #fdf8f8;
+    box-shadow: 0px 0px 2px grey;
+}
+#offer{
+   
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+#offer div{
+    height: 240px;
+    width: 70%;
+   /* border: 1px solid red;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+#offer div img{
+    height: 240px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Best food in bengaluru section */
+
+#bestfood{
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 77px;
+    margin-top: 20px;
+}
+
